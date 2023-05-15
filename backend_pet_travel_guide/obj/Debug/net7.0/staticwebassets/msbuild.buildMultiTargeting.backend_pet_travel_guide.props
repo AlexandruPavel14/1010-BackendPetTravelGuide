@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="../build/backend_pet_travel_guide.props" />
+</Project>
