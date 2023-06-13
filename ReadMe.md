@@ -14,7 +14,7 @@ https://github.com/AlexandruPavel14/Licenta-BackendPetTravelGuide/assets/8920003
 ## Create account (Android)
 https://github.com/AlexandruPavel14/Licenta-BackendPetTravelGuide/assets/89200038/b615236f-680e-4ba3-b668-2a2be13cd095
 
-## **Instalation**
+## **Installation**
 To use this project, make sure you have the following dependencies installed:
 
 - FluentValidation.AspNetCore (Version 11.3.0)
