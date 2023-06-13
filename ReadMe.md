@@ -2,6 +2,18 @@
 **Sistem** software pentru **planificarea de calatorii** pentru
 **iubitorii de animale de companie**
 
+## iOS
+https://github.com/AlexandruPavel14/Licenta-BackendPetTravelGuide/assets/89200038/22c3696c-4ec3-48fe-932a-bd15cac9d815
+
+## Android
+https://github.com/AlexandruPavel14/Licenta-BackendPetTravelGuide/assets/89200038/33a3bcf4-654f-45a0-8458-831a8d26bf70
+
+## Web
+https://github.com/AlexandruPavel14/Licenta-BackendPetTravelGuide/assets/89200038/b9a5ae52-441b-4a9d-b8d4-c675db46e6ae
+
+## Create account (Android)
+https://github.com/AlexandruPavel14/Licenta-BackendPetTravelGuide/assets/89200038/b615236f-680e-4ba3-b668-2a2be13cd095
+
 ## **Instalation**
 To use this project, make sure you have the following dependencies installed:
 
