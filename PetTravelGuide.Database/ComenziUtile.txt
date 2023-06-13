@@ -1,0 +1,36 @@
+-- dotnet
+dotnet ef migrations add nume 	
+dotnet ef database update 
+
+-- conectare baza de date prin terminal
+psql -h localhost -p 5432 -U postgres -d database_pettravelguide
+
+-- stergere tabele baza de date
+DROP SCHEMA IF EXISTS authentication CASCADE;
+CREATE SCHEMA authentication;
+
+DROP SCHEMA IF EXISTS public CASCADE;
+CREATE SCHEMA public;
+
+-- exemplu importare date din csv in postgresql
+########################################################
+M A C OS VERSION
+########################################################
+// item
+\copy item (id, country, county, city, name, latitude, longitude, rating, userratingstotal, onestar, twostar, threestar, fourstar, fivestar, mountains, hills, plains, plateaus, valleys, glacialfields, deltas, canyons, beaches, naturespots, stunningviews, lakes, parks, iconiccities, farms, castles, historicalhomes, boatrides, lakefrontareas, swimmingareas, caves, playgrounds)
+FROM 'item.csv' DELIMITER ',' CSV HEADER;
+
+// user
+\copy utilizatori (id, firstname, lastname)
+FROM '/Users/daniel/Desktop/X-LICENTA/PetTravelGuide-Aplicatia/0-PetTravelGuide-CSV-uri/Pasul1-DataStorage/user.csv' DELIMITER ',' CSV HEADER;
+
+// data
+\copy data (user_id, location_id, rating)
+FROM '/Users/daniel/Desktop/X-LICENTA/PetTravelGuide-Aplicatia/0-PetTravelGuide-CSV-uri/Pasul1-DataStorage/data.csv' DELIMITER ',' CSV HEADER;
+
+########################################################
+W I N D O W S  VERSION
+########################################################
+COPY item (id, country, county, city, name, latitude, longitude, rating, userratingstotal, onestar, twostar, threestar, fourstar, fivestar, mountains, hills, plains, plateaus, valleys, glacialfields, deltas, canyons, beaches, naturespots, stunningviews, lakes, parks, iconiccities, farms, castles, historicalhomes, boatrides, lakefrontareas, swimmingareas, caves, playgrounds)
+FROM 'item.csv' DELIMITER ',' CSV HEADER;
+ 
